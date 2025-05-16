@@ -20,6 +20,9 @@
 📤 Endpoints principales
 
   POST /upload_model/: subir archivos .pkl del preprocesador, filtro y modelo.
+  
   POST /predict/: realizar predicciones normales.
+  
   POST /predict_w_intervals/: realizar predicciones con intervalos de confianza.
+  
   Los tres archivos .pkl deben ser cargados antes de realizar predicciones.
